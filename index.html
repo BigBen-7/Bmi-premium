@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator #Premium</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
+      <div class="label">Your Height (cm):</div>
+      <input
+        type="number"
+        class="input"
+        id="height"
+        value="180"
+        placeholder="Enter Your Height in cm"
+      />
+      <div class="label">Your Weight (Kg):</div>
+      <input
+        type="number"
+        class="input"
+        id="weight"
+        value="80"
+        placeholder="Enter Your Weight in Kg"
+      />
+
+      <button class="btn show-modal" id="btn">Compute BMI</button>
+
+      <div
+        class="modal hidden animate__animated animate__backInUp animate__delay-0.2s"
+      >
+        <input disabled type="text" class="input" id="bmi-result" />
+        <div class="">
+          <button class="close-modal">&times;</button>
+        </div>
+        <h4 class="info-text animate__animated animate__backInUp">
+          Weight Condition: <span id="weight-condition"></span>
+        </h4>
+      </div>
+      <hr style="width: 100%" />
+      <div class="converter-container">
+        <h1 class="heading">Converter</h1>
+        <label for="meter" class="label">Pounds to Kilogram</label>
+        <br />
+        <input type="number" name="number" class="input" id="pounds" />
+
+        <button type="submit" class="btn btn1" onclick="convert()">
+          Convert
+        </button>
+        <div class="label2">
+          Convert to
+
+          <span id="convertion">0</span>
+          <span>kg</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay hidden"></div>
+    <script src="./BMI.js"></script>
+  </body>
+</html>
