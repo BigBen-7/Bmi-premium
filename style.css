@@ -105,6 +105,21 @@ body {
   border-radius: 25px;
   z-index: 10;
 }
+/* JS TIPS STYLING */
+.tips {
+  color: #02315e;
+  text-decoration: underline;
+}
+.tips-para {
+  font-size: 16px;
+  line-height: 20px;
+}
+.tips-list li {
+  font-size: 16px;
+  text-align: left;
+  margin: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
 
 .overlay {
   position: absolute;
