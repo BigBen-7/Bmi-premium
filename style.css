@@ -156,4 +156,19 @@ body {
   #bmi-result {
     width: 50%;
   }
+  .tips {
+    text-align: center;
+    font-size: 12px;
+  }
+  .tips-para {
+    font-size: 14px;
+    text-align: start;
+  }
+
+  .tips-list li {
+    font-size: 14px;
+    text-align: start;
+    margin: 2px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
 }
