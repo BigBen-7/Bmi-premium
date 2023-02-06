@@ -151,7 +151,8 @@ body {
     justify-content: center;
   }
   .modal {
-    left: 20%;
+    left: 4%;
+    width: 70%;
   }
   #bmi-result {
     width: 50%;
@@ -162,7 +163,7 @@ body {
   }
   .tips-para {
     font-size: 14px;
-    text-align: start;
+    text-align: justify;
     line-height: 20px;
   }
 
